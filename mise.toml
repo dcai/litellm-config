@@ -1,0 +1,3 @@
+[env]
+LITELLM_PROXY_PORT = "7897"
+LITELLM_PROXY_URL = "http://localhost:7897"
