@@ -15,3 +15,11 @@ model_list:
           "Editor-Version": "vscode/1.104.1",
           "Copilot-Integration-Id": "vscode-chat",
         }
+  - model_name: gpt-5-codex
+    litellm_params:
+      model: github_copilot/gpt-5-codex
+      extra_headers:
+        {
+          "Editor-Version": "vscode/1.104.1",
+          "Copilot-Integration-Id": "vscode-chat",
+        }
