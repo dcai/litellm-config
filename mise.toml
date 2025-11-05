@@ -1,3 +1,6 @@
 [env]
-LITELLM_PROXY_PORT = "7897"
-LITELLM_PROXY_URL = "http://localhost:7897"
+LITELLM_PROXY_PORT = "4141"
+LITELLM_PROXY_URL = "http://localhost:4141"
+
+[tasks]
+install = "uv sync"
