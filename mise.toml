@@ -1,6 +1,9 @@
 [env]
-LITELLM_PROXY_PORT = "4141"
-LITELLM_PROXY_URL = "http://localhost:4141"
+LITELLM_PROXY_PORT = "7890"
+LITELLM_PROXY_URL = "http://localhost:7890"
+AIOHTTP_TRUST_ENV = 'True'
+SSL_VERIFY = 'False'
+SSL_CERT_FIILE = "/Users/s304171/iag/iag_au_ca_root_2569.pem"
 # GITHUB_COPILOT_TOKEN_DIR="~/.config/github-copilot"
 # GITHUB_COPILOT_ACCESS_TOKEN_FILE="litellm-access-token"
 # GITHUB_COPILOT_API_KEY_FILE="litellm-api-key.json"

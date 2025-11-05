@@ -19,3 +19,7 @@ model_list:
           "editor-plugin-version": "copilot/1.155.0",
           "user-agent": "GithubCopilot/1.155.0",
         }
+
+litellm_settings:
+  ssl_verify: false
+  # ssl_security_level: "DEFAULT@SECLEVEL=1"
