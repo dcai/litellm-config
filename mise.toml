@@ -1,6 +1,10 @@
 [env]
 LITELLM_PROXY_PORT = "4141"
 LITELLM_PROXY_URL = "http://localhost:4141"
+# GITHUB_COPILOT_TOKEN_DIR="~/.config/github-copilot"
+# GITHUB_COPILOT_ACCESS_TOKEN_FILE="litellm-access-token"
+# GITHUB_COPILOT_API_KEY_FILE="litellm-api-key.json"
+# REQUESTS_CA_BUNDLE=""
 
 [tasks]
 install = "uv sync"
